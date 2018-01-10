@@ -182,8 +182,8 @@
 
     <module name="iperf">
       <source type="archive">
-        <attribute name="url" value="http://sourceforge.net/projects/iperf/files/iperf-2.0.5.tar.gz"/>
-        <attribute name="extract_directory" value="iperf-2.0.5"/>
+        <attribute name="url" value="http://sourceforge.net/projects/iperf2/files/iperf-2.0.9.tar.gz"/>
+        <attribute name="extract_directory" value="iperf-2.0.9"/>
       </source>
       <build type="make" objdir="yes">
         <attribute name="pre_installation" value="cd $SRCDIR;./configure --prefix=$INSTALLDIR"/>
